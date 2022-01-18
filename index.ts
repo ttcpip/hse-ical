@@ -40,9 +40,6 @@ http.createServer(async (req, res) => {
     .then((calendar) => calendar.serve(res, `${email}.ics`))
     .catch(errorHandler(res))
 })
-  .listen(3000, () => {
+  .listen(config.port, () => {
     console.log('Server running at http://127.0.0.1:3000/')
   })
-
-void (async () => {
-})()
