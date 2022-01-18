@@ -66,6 +66,7 @@ export const getTimetable = async (email: string, startDate: Date | DateTime, en
   return got.get<TimetableResponse>(url, {
     headers: {
       'Accept-Language': 'ru-RU, ru;q=0.9, en-US;q=0.8, en;q=0.7',
+      'User-Agent': 'hse-ical@1.0.0'
     },
     responseType: 'json',
   }).then((v) => {
