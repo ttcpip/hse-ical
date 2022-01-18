@@ -1,14 +1,25 @@
 import 'dotenv/config'
 import './utils/checkDotenv'
-import ical from 'ical-generator'
+import ical, {ICalCalendar} from 'ical-generator'
 import http from 'node:http'
 import {DateTime} from 'luxon'
 import {config} from './core/config'
+import LruCache from 'lru-cache'
 
 import {errorHandler} from './lib/errors'
 import {getTimetable} from './lib/hseapp'
 
-async function updateEvents(email: string) {
+const cache = new LruCache<string, ICalCalendar>({
+  maxAge: 1000 * 60 * 60, // 1h
+  max: 10,
+})
+
+async function createCalendar(email: string) {
+  const cached = cache.get(email)
+  if (cached) {
+    console.log(email, 'returned from cache')
+    return cached
+  }
   const calendar = ical({name: `Расписание · ${email}`})
   const start = DateTime.now().startOf('week')
   const lessons = await getTimetable(email, start, start.plus({weeks: 2}))
@@ -31,12 +42,18 @@ async function updateEvents(email: string) {
       url: lesson.stream_links?.[0].link,
     })
   }
+  cache.set(email, calendar)
   return calendar
 }
 
 http.createServer(async (req, res) => {
-  const email = config.email
-  return updateEvents(email)
+  const email = req.url?.slice(1) || ''
+  console.log(email)
+  if (!config.emails.includes(email)) {
+    res.writeHead(403)
+    return res.end('FORBIDDEN')
+  }
+  return createCalendar(email)
     .then((calendar) => calendar.serve(res, `${email}.ics`))
     .catch(errorHandler(res))
 })

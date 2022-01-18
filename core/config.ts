@@ -1,4 +1,4 @@
 export const config = {
-  email: process.env.EMAIL || '',
+  emails: (process.env.EMAILS || '').split(','),
   port: Number(process.env.PORT),
 }
