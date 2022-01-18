@@ -76,4 +76,7 @@ docker run -e PORT=3000 -e EMAILS=aaa@edu.hse.ru,bbb@edu.hse.ru -d ghcr.io/loski
 
 Ответы кешируются на час, чтобы не нагружать РУЗ.
 
+## TODO
 
+- Добавить аудиторию в событие
+- Понять, почему в Google Calendar не отображается ссылка на трансляцию
