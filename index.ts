@@ -47,7 +47,7 @@ async function createCalendar(email: string) {
 }
 
 http.createServer(async (req, res) => {
-  const email = req.url?.slice(1) || ''
+  const email = req.url && decodeURIComponent(req.url.slice(1)) || ''
   console.log(email)
   if (!config.emails.includes(email)) {
     res.writeHead(403)
