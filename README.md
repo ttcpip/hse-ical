@@ -30,6 +30,8 @@ services:
   hse_ical:
     image: ghcr.io/loskir/hse-ical:master
     restart: always
+    ports:
+      - 3050:3000
     environment:
       PORT: 3000
       EMAILS: aaa@edu.hse.ru,bbb@edu.hse.ru
