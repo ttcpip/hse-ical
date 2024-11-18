@@ -20,17 +20,22 @@ async function createCalendar(email: string) {
     console.log(email, 'returned from cache')
     return cached
   }
-  const calendar = ical({name: `Расписание · ${email}`})
+  const calendar = ical({name: `HSE · ${email}`})
   const start = DateTime.now().startOf('week')
   const lessons = await getTimetable(email, start, start.plus({weeks: 2}))
   for (const lesson of lessons) {
+    const lecturer = lesson.lecturer_profiles?.[0] || null
+    
     calendar.createEvent({
       start: new Date(lesson.date_start),
       end: new Date(lesson.date_end),
-      summary: `${lesson.discipline} · ${lesson.type} · ${lesson.lecturer_profile?.full_name}`,
-      ...lesson.building && {
+      
+      summary: `${lesson.discipline} · ${lesson.type}`,
+      description: (`${!lecturer ? 'no_lecturer' : `${lecturer.full_name || 'no_name'} ${lecturer.email || 'no_email'}`}\n`
+        + `Link: ${lesson.discipline_link || 'no_link'}`).trim(),
+      ...lesson.auditorium && {
         location: {
-          title: lesson.building,
+          title: lesson.auditorium,
           ...lesson.location && {
             geo: {
               lat: lesson.location.coordinates[1],

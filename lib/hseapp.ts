@@ -46,7 +46,6 @@ interface Lesson {
   hash: string
   consultation: unknown | null
   lecturer_profiles: Person[]
-  lecturer_profile: Person
 }
 
 type TimetableResponse = Lesson[]
@@ -71,6 +70,8 @@ export const getTimetable = async (email: string, startDate: Date | DateTime, en
     responseType: 'json',
   }).then((v) => {
     console.log(`getTimetable took ${Date.now() - start}ms, ${url}`)
+    import('fs').then((fs) => fs.promises.writeFile('./data.json', JSON.stringify(v.body)))
+    console.log(v.body)
     return v.body
   }).catch((error) => {
     if (error instanceof HTTPError) {
