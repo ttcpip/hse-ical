@@ -52,7 +52,7 @@ async function createCalendar(params: ICreateCalendarParams) {
     const data: ICalEventData = { summary, description };
 
     if (lesson.date_start) data.start = new Date(lesson.date_start);
-    if (lesson.date_end) data.start = new Date(lesson.date_end);
+    if (lesson.date_end) data.end = new Date(lesson.date_end);
     if (lesson.auditorium) {
       data.location = { title: normalizeStr(lesson.auditorium) };
       const [lon, lat] = lesson.location?.coordinates || [0, 0];
