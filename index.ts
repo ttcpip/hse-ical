@@ -16,8 +16,15 @@ interface ICreateCalendarParams {
 }
 
 async function createCalendar(params: ICreateCalendarParams) {
+  if (params.include && params.exclude)
+    throw new Error(`include and exclude can't exist together`);
+
   const email = params.email;
-  const calendar = ical({ name: `HSE · ${email}` });
+  const calendar = ical({
+    name: `HSE · ${email} · ${
+      params.exclude ? "exclude" : params.include ? "include" : "all"
+    }`,
+  });
   const start = DateTime.now().startOf("week");
 
   const lessons = await getTimetable(
