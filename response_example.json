@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "10338330",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_МI_П_860382_1#П#Микроэкономика II",
+    "auditorium_id": 3118,
+    "auditorium": "436",
+    "city": "spb",
+    "date_start": "2024-11-18T10:00:00Z",
+    "date_end": "2024-11-18T11:20:00Z",
+    "created_at": "2024-10-29T14:51:18Z",
+    "updated_at": "2024-10-29T14:51:18Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Микроэкономика II (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520984121",
+    "lesson_number_start": 4,
+    "lesson_number_end": 4,
+    "duration": [
+      4
+    ],
+    "lecturer_emails": [
+      "avkonovalov@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz89611",
+        "email": "avkonovalov@hse.ru",
+        "full_name": "Коновалов Александр Викторович",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "9d399d37eff5230ab4657df53ed42963dac5994f"
+  },
+  {
+    "id": "10337814",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_М_П_860363_1#П#Маркетинг",
+    "auditorium_id": 3118,
+    "auditorium": "436",
+    "city": "spb",
+    "date_start": "2024-11-18T11:40:00Z",
+    "date_end": "2024-11-18T13:00:00Z",
+    "created_at": "2024-10-29T14:33:15Z",
+    "updated_at": "2024-10-29T14:33:16Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Маркетинг (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520976135",
+    "lesson_number_start": 5,
+    "lesson_number_end": 5,
+    "duration": [
+      5
+    ],
+    "lecturer_emails": [
+      "eshekova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz92386",
+        "email": "eshekova@hse.ru",
+        "full_name": "Шекова Екатерина Леонидовна",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "838848688807b557e28182f5b21b0bb113ace131"
+  },
+  {
+    "id": "10338057",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_М_Г_860363_9#Г#Маркетинг",
+    "auditorium_id": 3113,
+    "auditorium": "355",
+    "city": "spb",
+    "date_start": "2024-11-19T11:40:00Z",
+    "date_end": "2024-11-19T13:00:00Z",
+    "created_at": "2024-10-29T14:40:02Z",
+    "updated_at": "2024-10-29T14:40:02Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Маркетинг (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520976135",
+    "lesson_number_start": 5,
+    "lesson_number_end": 5,
+    "duration": [
+      5
+    ],
+    "lecturer_emails": [
+      "aazakharova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93860",
+        "email": "aazakharova@hse.ru",
+        "full_name": "Захарова Александра Алексеевна",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "36bb8226cbd9a69f387577b49ddc2ebb4ef6a894"
+  },
+  {
+    "id": "10338998",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_МI_Г_860382_9#Г#Микроэкономика II",
+    "auditorium_id": 3104,
+    "auditorium": "256",
+    "city": "spb",
+    "date_start": "2024-11-19T13:20:00Z",
+    "date_end": "2024-11-19T14:40:00Z",
+    "created_at": "2024-10-29T15:22:49Z",
+    "updated_at": "2024-10-29T15:22:50Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Микроэкономика II (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520984121",
+    "lesson_number_start": 6,
+    "lesson_number_end": 6,
+    "duration": [
+      6
+    ],
+    "lecturer_emails": [
+      "amaksimtseva@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93165",
+        "email": "amaksimtseva@hse.ru",
+        "full_name": "Максимцева Анна Викторовна",
+        "description": "Преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "1d758af22ff303441fd439103574b22f340c3423"
+  },
+  {
+    "id": "10406379",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Контрольная работа",
+    "stream": "С_ТВИМС_П_860368_1#П#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3117,
+    "auditorium": "435",
+    "city": "spb",
+    "date_start": "2024-11-20T15:10:00Z",
+    "date_end": "2024-11-20T16:30:00Z",
+    "created_at": "2024-11-12T11:05:52Z",
+    "updated_at": "2024-11-12T11:06:23Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 7,
+    "lesson_number_end": 7,
+    "duration": [
+      7
+    ],
+    "lecturer_emails": [
+      "vvlitvinova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94201",
+        "email": "vvlitvinova@hse.ru",
+        "full_name": "Литвинова Виктория Викторовна",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Контрольная работа",
+    "hash": "5ae3613562612c9602ccb434fe812207005c72c0"
+  },
+  {
+    "id": "10406380",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Контрольная работа",
+    "stream": "С_ТВИМС_П_860368_1#П#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3118,
+    "auditorium": "436",
+    "city": "spb",
+    "date_start": "2024-11-20T15:10:00Z",
+    "date_end": "2024-11-20T16:30:00Z",
+    "created_at": "2024-11-12T11:05:58Z",
+    "updated_at": "2024-11-12T11:06:10Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 7,
+    "lesson_number_end": 7,
+    "duration": [
+      7
+    ],
+    "lecturer_emails": [
+      "vvlitvinova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94201",
+        "email": "vvlitvinova@hse.ru",
+        "full_name": "Литвинова Виктория Викторовна",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Контрольная работа",
+    "hash": "809eb7ac91c1adfeb86e1d6ee642bbcbde3725a1"
+  },
+  {
+    "id": "10339666",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_ТВИМС_Г_860368_9#Г#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3104,
+    "auditorium": "256",
+    "city": "spb",
+    "date_start": "2024-11-21T06:30:00Z",
+    "date_end": "2024-11-21T07:50:00Z",
+    "created_at": "2024-10-29T15:57:59Z",
+    "updated_at": "2024-10-29T15:58:00Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 2,
+    "lesson_number_end": 2,
+    "duration": [
+      2
+    ],
+    "lecturer_emails": [
+      "mshagaj@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94199",
+        "email": "mshagaj@hse.ru",
+        "full_name": "Шагай Мария Алексеевна",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "94ae1ea4733fd1b3d8aecbfd4b7917f74e414af3"
+  },
+  {
+    "id": "10339683",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_ТВИМС_Г_860368_9#Г#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3104,
+    "auditorium": "256",
+    "city": "spb",
+    "date_start": "2024-11-21T08:10:00Z",
+    "date_end": "2024-11-21T09:30:00Z",
+    "created_at": "2024-10-29T15:57:59Z",
+    "updated_at": "2024-10-29T15:58:00Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 3,
+    "lesson_number_end": 3,
+    "duration": [
+      3
+    ],
+    "lecturer_emails": [
+      "mshagaj@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94199",
+        "email": "mshagaj@hse.ru",
+        "full_name": "Шагай Мария Алексеевна",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "3f9195c471bfb0b86a5e08a242dd69ae4fbc5322"
+  },
+  {
+    "id": "10339081",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_МI_Г_860382_9#Г#Микроэкономика II",
+    "auditorium_id": 3112,
+    "auditorium": "354",
+    "city": "spb",
+    "date_start": "2024-11-21T10:00:00Z",
+    "date_end": "2024-11-21T11:20:00Z",
+    "created_at": "2024-10-29T15:25:13Z",
+    "updated_at": "2024-10-29T15:25:14Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Микроэкономика II (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520984121",
+    "lesson_number_start": 4,
+    "lesson_number_end": 4,
+    "duration": [
+      4
+    ],
+    "lecturer_emails": [
+      "amaksimtseva@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93165",
+        "email": "amaksimtseva@hse.ru",
+        "full_name": "Максимцева Анна Викторовна",
+        "description": "Преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "0ea1f856b47df7b67a213946d8951eccb24333a5"
+  },
+  {
+    "id": "10340421",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_ТИ_Г_860325_9#Г#Теория игр",
+    "auditorium_id": 3105,
+    "auditorium": "257",
+    "city": "spb",
+    "date_start": "2024-11-21T13:20:00Z",
+    "date_end": "2024-11-21T14:40:00Z",
+    "created_at": "2024-10-29T16:28:14Z",
+    "updated_at": "2024-10-29T16:28:15Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория игр (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520960480",
+    "lesson_number_start": 6,
+    "lesson_number_end": 6,
+    "duration": [
+      6
+    ],
+    "lecturer_emails": [
+      "jilin@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93431",
+        "email": "jilin@hse.ru",
+        "full_name": "Жилин Владимир Александрович",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "a05d91034f08f4928fdf2eea19af5332647fd033"
+  },
+  {
+    "id": "10406409",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_ТВИМС_П_860368_1#П#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3117,
+    "auditorium": "435",
+    "city": "spb",
+    "date_start": "2024-11-22T06:30:00Z",
+    "date_end": "2024-11-22T07:50:00Z",
+    "created_at": "2024-11-12T11:13:42Z",
+    "updated_at": "2024-11-12T11:13:42Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 2,
+    "lesson_number_end": 2,
+    "duration": [
+      2
+    ],
+    "lecturer_emails": [
+      "vvlitvinova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94201",
+        "email": "vvlitvinova@hse.ru",
+        "full_name": "Литвинова Виктория Викторовна",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "bf410e98fce49209add1d3461b2b4d7d9ce835b1"
+  },
+  {
+    "id": "10339693",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_ТВИМС_П_860368_1#П#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3117,
+    "auditorium": "435",
+    "city": "spb",
+    "date_start": "2024-11-22T08:10:00Z",
+    "date_end": "2024-11-22T09:30:00Z",
+    "created_at": "2024-10-29T15:57:59Z",
+    "updated_at": "2024-11-08T14:55:40Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 3,
+    "lesson_number_end": 3,
+    "duration": [
+      3
+    ],
+    "lecturer_emails": [
+      "vvlitvinova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94201",
+        "email": "vvlitvinova@hse.ru",
+        "full_name": "Литвинова Виктория Викторовна",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "c4e6ca530349aa70ebb5a4f2b4af17dc15e0ca05"
+  },
+  {
+    "id": "10340426",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_ТИ_П_860325_1#П#Теория игр",
+    "auditorium_id": 3117,
+    "auditorium": "435",
+    "city": "spb",
+    "date_start": "2024-11-22T10:00:00Z",
+    "date_end": "2024-11-22T11:20:00Z",
+    "created_at": "2024-10-29T16:28:14Z",
+    "updated_at": "2024-11-08T14:57:46Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория игр (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520960480",
+    "lesson_number_start": 4,
+    "lesson_number_end": 4,
+    "duration": [
+      4
+    ],
+    "lecturer_emails": [
+      "jilin@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93431",
+        "email": "jilin@hse.ru",
+        "full_name": "Жилин Владимир Александрович",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "eafc2d508d0875d772c1a182da6bcf48ab673eb3"
+  },
+  {
+    "id": "10336839",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Практические занятия",
+    "stream": "С_PДАД_С_859637_9#С#Python для анализа данных",
+    "auditorium_id": 4876,
+    "auditorium": "к.к.4006",
+    "city": "spb",
+    "date_start": "2024-11-22T11:40:00Z",
+    "date_end": "2024-11-22T13:00:00Z",
+    "created_at": "2024-10-29T13:27:28Z",
+    "updated_at": "2024-11-06T17:48:46Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Python для анализа данных (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520935671",
+    "lesson_number_start": 5,
+    "lesson_number_end": 5,
+    "duration": [
+      5
+    ],
+    "lecturer_emails": [
+      "kd.efimov@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93220",
+        "email": "kd.efimov@hse.ru",
+        "full_name": "Ефимов Константин Дмитриевич",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Практические занятия",
+    "hash": "f5ae16c721c644316e224344f34c68c32a1ef12c"
+  },
+  {
+    "id": "10336844",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Практические занятия",
+    "stream": "С_PДАД_С_859637_9#С#Python для анализа данных",
+    "auditorium_id": 4876,
+    "auditorium": "к.к.4006",
+    "city": "spb",
+    "date_start": "2024-11-22T13:20:00Z",
+    "date_end": "2024-11-22T14:40:00Z",
+    "created_at": "2024-10-29T13:27:28Z",
+    "updated_at": "2024-11-06T17:48:55Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Python для анализа данных (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520935671",
+    "lesson_number_start": 6,
+    "lesson_number_end": 6,
+    "duration": [
+      6
+    ],
+    "lecturer_emails": [
+      "kd.efimov@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93220",
+        "email": "kd.efimov@hse.ru",
+        "full_name": "Ефимов Константин Дмитриевич",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Практические занятия",
+    "hash": "d4a742b26c152bb8618e1b5bc22797363045c9d2"
+  },
+  {
+    "id": "10338331",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_МI_П_860382_1#П#Микроэкономика II",
+    "auditorium_id": 3118,
+    "auditorium": "436",
+    "city": "spb",
+    "date_start": "2024-11-25T10:00:00Z",
+    "date_end": "2024-11-25T11:20:00Z",
+    "created_at": "2024-10-29T14:51:18Z",
+    "updated_at": "2024-10-29T14:51:18Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Микроэкономика II (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520984121",
+    "lesson_number_start": 4,
+    "lesson_number_end": 4,
+    "duration": [
+      4
+    ],
+    "lecturer_emails": [
+      "avkonovalov@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz89611",
+        "email": "avkonovalov@hse.ru",
+        "full_name": "Коновалов Александр Викторович",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "ff2d6ba0b947cdcc1d035c4e1234b716e3dfd166"
+  },
+  {
+    "id": "10337815",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_М_П_860363_1#П#Маркетинг",
+    "auditorium_id": 3118,
+    "auditorium": "436",
+    "city": "spb",
+    "date_start": "2024-11-25T11:40:00Z",
+    "date_end": "2024-11-25T13:00:00Z",
+    "created_at": "2024-10-29T14:33:15Z",
+    "updated_at": "2024-10-29T14:33:16Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Маркетинг (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520976135",
+    "lesson_number_start": 5,
+    "lesson_number_end": 5,
+    "duration": [
+      5
+    ],
+    "lecturer_emails": [
+      "eshekova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz92386",
+        "email": "eshekova@hse.ru",
+        "full_name": "Шекова Екатерина Леонидовна",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "bce35793e2b3d8864864e0a2fc52f27177b55781"
+  },
+  {
+    "id": "10338058",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_М_Г_860363_9#Г#Маркетинг",
+    "auditorium_id": 3113,
+    "auditorium": "355",
+    "city": "spb",
+    "date_start": "2024-11-26T11:40:00Z",
+    "date_end": "2024-11-26T13:00:00Z",
+    "created_at": "2024-10-29T14:40:02Z",
+    "updated_at": "2024-10-29T14:40:02Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Маркетинг (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520976135",
+    "lesson_number_start": 5,
+    "lesson_number_end": 5,
+    "duration": [
+      5
+    ],
+    "lecturer_emails": [
+      "aazakharova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93860",
+        "email": "aazakharova@hse.ru",
+        "full_name": "Захарова Александра Алексеевна",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "26a22ffc3e136d4378be30fb5e1f3f73c3538274"
+  },
+  {
+    "id": "10338999",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_МI_Г_860382_9#Г#Микроэкономика II",
+    "auditorium_id": 3104,
+    "auditorium": "256",
+    "city": "spb",
+    "date_start": "2024-11-26T13:20:00Z",
+    "date_end": "2024-11-26T14:40:00Z",
+    "created_at": "2024-10-29T15:22:49Z",
+    "updated_at": "2024-10-29T15:22:50Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Микроэкономика II (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520984121",
+    "lesson_number_start": 6,
+    "lesson_number_end": 6,
+    "duration": [
+      6
+    ],
+    "lecturer_emails": [
+      "amaksimtseva@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93165",
+        "email": "amaksimtseva@hse.ru",
+        "full_name": "Максимцева Анна Викторовна",
+        "description": "Преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "c53ab7241bbd1521ae64c53639647a58babe1f31"
+  },
+  {
+    "id": "10339667",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_ТВИМС_Г_860368_9#Г#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3104,
+    "auditorium": "256",
+    "city": "spb",
+    "date_start": "2024-11-28T06:30:00Z",
+    "date_end": "2024-11-28T07:50:00Z",
+    "created_at": "2024-10-29T15:57:59Z",
+    "updated_at": "2024-10-29T15:58:00Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 2,
+    "lesson_number_end": 2,
+    "duration": [
+      2
+    ],
+    "lecturer_emails": [
+      "mshagaj@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94199",
+        "email": "mshagaj@hse.ru",
+        "full_name": "Шагай Мария Алексеевна",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "fb2c4b3e1e358d76d613915020e0d1ab513e298f"
+  },
+  {
+    "id": "10339684",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_ТВИМС_Г_860368_9#Г#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3104,
+    "auditorium": "256",
+    "city": "spb",
+    "date_start": "2024-11-28T08:10:00Z",
+    "date_end": "2024-11-28T09:30:00Z",
+    "created_at": "2024-10-29T15:57:59Z",
+    "updated_at": "2024-10-29T15:58:00Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 3,
+    "lesson_number_end": 3,
+    "duration": [
+      3
+    ],
+    "lecturer_emails": [
+      "mshagaj@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94199",
+        "email": "mshagaj@hse.ru",
+        "full_name": "Шагай Мария Алексеевна",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "17b31bb0fef58ba3ce44b0abe9a1aba4db9b0e0c"
+  },
+  {
+    "id": "10339082",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_МI_Г_860382_9#Г#Микроэкономика II",
+    "auditorium_id": 3112,
+    "auditorium": "354",
+    "city": "spb",
+    "date_start": "2024-11-28T10:00:00Z",
+    "date_end": "2024-11-28T11:20:00Z",
+    "created_at": "2024-10-29T15:25:13Z",
+    "updated_at": "2024-10-29T15:25:14Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Микроэкономика II (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520984121",
+    "lesson_number_start": 4,
+    "lesson_number_end": 4,
+    "duration": [
+      4
+    ],
+    "lecturer_emails": [
+      "amaksimtseva@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93165",
+        "email": "amaksimtseva@hse.ru",
+        "full_name": "Максимцева Анна Викторовна",
+        "description": "Преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "62121e217dbfdc2afc5ad5f5017c767590c49477"
+  },
+  {
+    "id": "10340422",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Семинары",
+    "stream": "С_ТИ_Г_860325_9#Г#Теория игр",
+    "auditorium_id": 3105,
+    "auditorium": "257",
+    "city": "spb",
+    "date_start": "2024-11-28T13:20:00Z",
+    "date_end": "2024-11-28T14:40:00Z",
+    "created_at": "2024-10-29T16:28:14Z",
+    "updated_at": "2024-10-29T16:28:15Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория игр (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520960480",
+    "lesson_number_start": 6,
+    "lesson_number_end": 6,
+    "duration": [
+      6
+    ],
+    "lecturer_emails": [
+      "jilin@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93431",
+        "email": "jilin@hse.ru",
+        "full_name": "Жилин Владимир Александрович",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Семинары",
+    "hash": "64f50ed752986e2a6bc3046bfd8181a059adec68"
+  },
+  {
+    "id": "10339694",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_ТВИМС_П_860368_1#П#Теория вероятностей и математическая статистика",
+    "auditorium_id": 3117,
+    "auditorium": "435",
+    "city": "spb",
+    "date_start": "2024-11-29T08:10:00Z",
+    "date_end": "2024-11-29T09:30:00Z",
+    "created_at": "2024-10-29T15:57:59Z",
+    "updated_at": "2024-11-08T14:55:40Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория вероятностей и математическая статистика\t\t\t\t (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520978928",
+    "lesson_number_start": 3,
+    "lesson_number_end": 3,
+    "duration": [
+      3
+    ],
+    "lecturer_emails": [
+      "vvlitvinova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz94201",
+        "email": "vvlitvinova@hse.ru",
+        "full_name": "Литвинова Виктория Викторовна",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "7b9c54c4053158193f470b9970a6d860c8a8c989"
+  },
+  {
+    "id": "10340427",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_ТИ_П_860325_1#П#Теория игр",
+    "auditorium_id": 3117,
+    "auditorium": "435",
+    "city": "spb",
+    "date_start": "2024-11-29T10:00:00Z",
+    "date_end": "2024-11-29T11:20:00Z",
+    "created_at": "2024-10-29T16:28:14Z",
+    "updated_at": "2024-11-08T14:57:46Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Теория игр (рус)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520960480",
+    "lesson_number_start": 4,
+    "lesson_number_end": 4,
+    "duration": [
+      4
+    ],
+    "lecturer_emails": [
+      "jilin@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93431",
+        "email": "jilin@hse.ru",
+        "full_name": "Жилин Владимир Александрович",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "c04411cc52f4d901888e42aad7b4cb54ca841c67"
+  },
+  {
+    "id": "10336840",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Практические занятия",
+    "stream": "С_PДАД_С_859637_9#С#Python для анализа данных",
+    "auditorium_id": 4876,
+    "auditorium": "к.к.4006",
+    "city": "spb",
+    "date_start": "2024-11-29T11:40:00Z",
+    "date_end": "2024-11-29T13:00:00Z",
+    "created_at": "2024-10-29T13:27:28Z",
+    "updated_at": "2024-11-06T17:46:29Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Python для анализа данных (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520935671",
+    "lesson_number_start": 5,
+    "lesson_number_end": 5,
+    "duration": [
+      5
+    ],
+    "lecturer_emails": [
+      "kd.efimov@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93220",
+        "email": "kd.efimov@hse.ru",
+        "full_name": "Ефимов Константин Дмитриевич",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Практические занятия",
+    "hash": "2a418a714e31275a189e05f44d3eed572fcf7d6b"
+  },
+  {
+    "id": "10336845",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Практические занятия",
+    "stream": "С_PДАД_С_859637_9#С#Python для анализа данных",
+    "auditorium_id": 4876,
+    "auditorium": "к.к.4006",
+    "city": "spb",
+    "date_start": "2024-11-29T13:20:00Z",
+    "date_end": "2024-11-29T14:40:00Z",
+    "created_at": "2024-10-29T13:27:28Z",
+    "updated_at": "2024-11-06T17:46:37Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Python для анализа данных (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520935671",
+    "lesson_number_start": 6,
+    "lesson_number_end": 6,
+    "duration": [
+      6
+    ],
+    "lecturer_emails": [
+      "kd.efimov@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz93220",
+        "email": "kd.efimov@hse.ru",
+        "full_name": "Ефимов Константин Дмитриевич",
+        "description": "Ст. преподаватель"
+      }
+    ],
+    "kindOfWork": "Практические занятия",
+    "hash": "7c95a746faf5a1c298269793d0808b022efcef26"
+  },
+  {
+    "id": "10338332",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_МI_П_860382_1#П#Микроэкономика II",
+    "auditorium_id": 3118,
+    "auditorium": "436",
+    "city": "spb",
+    "date_start": "2024-12-02T10:00:00Z",
+    "date_end": "2024-12-02T11:20:00Z",
+    "created_at": "2024-10-29T14:51:18Z",
+    "updated_at": "2024-10-29T14:51:18Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Микроэкономика II (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520984121",
+    "lesson_number_start": 4,
+    "lesson_number_end": 4,
+    "duration": [
+      4
+    ],
+    "lecturer_emails": [
+      "avkonovalov@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz89611",
+        "email": "avkonovalov@hse.ru",
+        "full_name": "Коновалов Александр Викторович",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "e32b8d6e3d2f7611d3d6e367536e408610daa3df"
+  },
+  {
+    "id": "10337816",
+    "building": "СПб, ул. Кантемировская 3",
+    "type": "Лекция",
+    "stream": "С_М_П_860363_1#П#Маркетинг",
+    "auditorium_id": 3118,
+    "auditorium": "436",
+    "city": "spb",
+    "date_start": "2024-12-02T11:40:00Z",
+    "date_end": "2024-12-02T13:00:00Z",
+    "created_at": "2024-10-29T14:33:15Z",
+    "updated_at": "2024-10-29T14:33:16Z",
+    "importance_level": 2,
+    "building_id": 2203,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3272148,
+        59.9800492
+      ]
+    },
+    "discipline": "Маркетинг (анг)",
+    "discipline_link": "https://www.hse.ru/edu/courses/plan/18520976135",
+    "lesson_number_start": 5,
+    "lesson_number_end": 5,
+    "duration": [
+      5
+    ],
+    "lecturer_emails": [
+      "eshekova@hse.ru"
+    ],
+    "lecturer_profiles": [
+      {
+        "id": "ruz92386",
+        "email": "eshekova@hse.ru",
+        "full_name": "Шекова Екатерина Леонидовна",
+        "description": "Доцент"
+      }
+    ],
+    "kindOfWork": "Лекция",
+    "hash": "5065375c84bcdf0d2640419ed9e49720fdffe951"
+  }
+]
