@@ -72,7 +72,12 @@ async function createCalendar(params: ICreateCalendarParams) {
 const allowedEmails = new Set(config.ALLOWED_EMAILS);
 http
   .createServer(async (req, res) => {
-    console.log(`New request:`, req.url);
+    const ip =
+      req.headers["cf-connecting-ip"] ||
+      req.headers["x-forwarded-for"] ||
+      req.socket.remoteAddress;
+
+    console.log(`New request from ${ip}:`, req.url);
     const parsedUrl = new URL(req.url || "/", `http://${req.headers.host}`);
 
     const params: ICreateCalendarParams = {
