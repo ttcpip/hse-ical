@@ -7,22 +7,26 @@ import { getTimetable } from "./lib/hseapp";
 import { normalizeStr } from "./lib/normalizeStr";
 import dedent from "dedent";
 
-interface ICreateCalendarParams {
-  email: string;
+interface IExtra {
   /** Exclude only matched lessons by `exclude` RegExp */
   exclude?: string;
   /** Include only matched lessons by `exclude` RegExp */
   include?: string;
 }
+interface ICreateCalendarParams {
+  email: string;
+  extra?: IExtra;
+}
 
 async function createCalendar(params: ICreateCalendarParams) {
-  if (params.include && params.exclude)
+  const extra = params.extra;
+  if (extra?.include && extra?.exclude)
     throw new Error(`include and exclude can't exist together`);
 
   const email = params.email;
-  const idParams = params.exclude
+  const idParams = extra?.exclude
     ? "exclude"
-    : params.include
+    : extra?.include
     ? "include"
     : "all";
   const calendar = ical({
@@ -37,8 +41,8 @@ async function createCalendar(params: ICreateCalendarParams) {
     start.plus({ weeks: config.WEEKS_TO_PULL || 2 })
   );
 
-  const excludeRegExp = params.exclude ? new RegExp(params.exclude, "i") : null;
-  const includeRegExp = params.include ? new RegExp(params.include, "i") : null;
+  const excludeRegExp = extra?.exclude ? new RegExp(extra?.exclude, "i") : null;
+  const includeRegExp = extra?.include ? new RegExp(extra?.include, "i") : null;
 
   for (const lesson of lessons) {
     const lecturer = lesson.lecturer_profiles?.find((p) => p) || {};
@@ -77,10 +81,7 @@ async function createCalendar(params: ICreateCalendarParams) {
     calendar.createEvent(data);
   }
 
-  return {
-    calendar,
-    filename,
-  };
+  return { calendar, filename };
 }
 
 const allowedEmails = new Set(config.ALLOWED_EMAILS);
@@ -96,8 +97,14 @@ http
 
     const params: ICreateCalendarParams = {
       email: parsedUrl.searchParams.get("email") || "",
-      exclude: parsedUrl.searchParams.get("exclude") || undefined,
-      include: parsedUrl.searchParams.get("include") || undefined,
+      extra:
+        parsedUrl.searchParams.get("extra") &&
+        JSON.parse(
+          Buffer.from(
+            parsedUrl.searchParams.get("extra") || "",
+            "base64url"
+          ).toString("utf8")
+        ),
     };
 
     if (!(params.email && allowedEmails.has(params.email))) {
