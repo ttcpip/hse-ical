@@ -20,11 +20,15 @@ async function createCalendar(params: ICreateCalendarParams) {
     throw new Error(`include and exclude can't exist together`);
 
   const email = params.email;
+  const idParams = params.exclude
+    ? "exclude"
+    : params.include
+    ? "include"
+    : "all";
   const calendar = ical({
-    name: `HSE · ${email} · ${
-      params.exclude ? "exclude" : params.include ? "include" : "all"
-    }`,
+    name: `HSE · ${email} · ${idParams}`,
   });
+  const filename = `${params.email}_${idParams}.ics`;
   const start = DateTime.now().startOf("week");
 
   const lessons = await getTimetable(
@@ -73,7 +77,10 @@ async function createCalendar(params: ICreateCalendarParams) {
     calendar.createEvent(data);
   }
 
-  return calendar;
+  return {
+    calendar,
+    filename,
+  };
 }
 
 const allowedEmails = new Set(config.ALLOWED_EMAILS);
@@ -99,8 +106,8 @@ http
     }
 
     try {
-      const createdCalendar = await createCalendar(params);
-      return createdCalendar.serve(res, `${params.email}.ics`);
+      const { calendar, filename } = await createCalendar(params);
+      return calendar.serve(res, filename);
     } catch (err) {
       errorHandler(res)(err);
     }
