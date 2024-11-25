@@ -9,7 +9,8 @@
     "build": "bun x tsc",
     "dev": "concurrently -k -i -p \"[{name}]\" -n \"Node,TypeScript\" -c \"yellow.bold,cyan.bold\" \"bun run watch-js\" \"bun run watch-ts\"",
     "watch-ts": "bun run tsc -w",
-    "watch-js": "nodemon dist/index.js"
+    "watch-js": "nodemon dist/index.js",
+    "pullAndBuild": "git pull && bun i --frozen-lockfile && bun run build"
   },
   "dependencies": {
     "dedent": "^1.5.3",
